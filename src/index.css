@@ -1,13 +1,52 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   padding-top: 40px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --mainText: #383838;
+  --boldText: #000000;
+  --spanText: #ff00ff;
+  --mutedText: #565656;
+  --mainBtnColor: linear-gradient(90.95deg, #ff00ff 18.54%, #1ab7ea 98.34%);
+  --mainBtnShadow: 0px 4px 4px rgba(26, 183, 234, 0.16);
+  --mainBtnRoind: 8px;
+  --priBtnColor: linear-gradient(95.45deg, #ff00ff -1.9%, #1ab7ea 108.63%);
+  --layer:linear-gradient(0deg, #383838, #383838);
+  --sectionBg:#E5E5E5;
+}
+/* Titles */
+.pinkText{
+  color: var(--spanText);
+}
+.muted{
+  color: var(--mutedText);
+  font-size: 1.3rem;
+}
+/* Titles */
+
+/******** SliderProductSection********/
+.slick-prev:before, .slick-next:before{
+  color: var(--spanText) !important;
+}
+
+.slick-list{
+  text-align: center !important;
+  border: unset !important;
+  }
+/***************CART*********/
+.dropdown-toggle::after{
+  color: #383838;
+}
+
+.dropdown-menu[data-bs-popper]  { 
+left: unset !important;
+  right:0 !important;
+  margin-top: 20px !important;
+ 
 }

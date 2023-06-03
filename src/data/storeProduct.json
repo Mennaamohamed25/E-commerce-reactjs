@@ -1,0 +1,60 @@
+[
+    {
+        "id":1,
+        "name":"Dream",
+        "price":1000,
+        "discount":false,
+        "bestSale":true,
+        "imgPro":"/ProductImg/flower3.png",
+        "desc":"One of our new boxes design, a mixture of white and pink roses with Ferrero rocher..."
+
+    },
+    {
+        "id":2,
+        "name":"Daydreamer",
+        "price":3000,
+        "discount":true,
+        "sales":200,
+        "bestSale":false,
+        "imgPro":"/ProductImg/flower3.png",
+        "desc":"One of our new boxes design, a mixture of white and pink roses with Ferrero rocher..."
+    },
+    {
+        "id":3,
+        "name":"Lovely",
+        "price":700,
+        "discount":false,
+        "bestSale":true,
+        "imgPro":"/ProductImg/flower3.png",
+        "desc":"One of our new boxes design, a mixture of white and pink roses with Ferrero rocher..."
+    },
+    {
+        "id":4,
+        "name":"Dream",
+        "price":1000,
+        "discount":true,
+        "sales":500,
+        "bestSale":false,
+        "imgPro":"/ProductImg/flower3.png",
+        "desc":"One of our new boxes design, a mixture of white and pink roses with Ferrero rocher..."
+    },
+    {
+        "id":5,
+        "name":"Daydreamer",
+        "price":3000,
+        "discount":false,
+        "bestSale":true,
+        "imgPro":"/ProductImg/flower3.png",
+        "desc":"One of our new boxes design, a mixture of white and pink roses with Ferrero rocher..."
+    },
+    {
+        "id":6,
+        "name":"Lovely",
+        "price":700,
+        "discount":true,
+        "sales":200,
+        "bestSale":false,
+        "imgPro":"/ProductImg/flower3.png",
+        "desc":"One of our new boxes design, a mixture of white and pink roses with Ferrero rocher..."
+    }
+]

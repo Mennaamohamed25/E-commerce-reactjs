@@ -1,0 +1,99 @@
+@import "../../index.css";
+.sliderSection {
+  background-color: var(--sectionBg);
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.sliderBox {
+  width: 90% !important;
+}
+.sliderItems {
+  background-color: #ffff;
+  position: relative;
+  border-radius: var(--mainBtnRoind);
+}
+.productLayer {
+  position: absolute;
+  background: var(--layer);
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+  border-radius: 0px 0px 8px 8px;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliderBoxTit {
+  color: #ffff;
+  font-weight: 600;
+  margin: 0;
+
+}
+.bottomText {
+  text-align: start !important;
+
+}
+.sliderInfo {
+  color: var(--mutedText);
+  margin: 0.7rem 0 0.1rem 0;
+  font-size: 15px;
+  line-height: 1.3;
+}
+.sliderLink {
+  font-size: 14px;
+  color: #000000;
+}
+.sliderLink:hover {
+  color: unset;
+}
+.sliderPrice {
+  color: var(--spanText);
+  margin-top: 0.2rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+.sliderDiscount{
+    text-decoration: line-through;
+    color: #ACACAC;
+}
+.productInfo , .productMoreInfo{
+    position: absolute;
+    top: 20px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #B00000;
+    color: #ffff;
+    font-size: 14px;
+    padding: 0px 6px;
+}
+.productMoreInfo{
+   
+    background-color: #EAC400 !important;
+  
+}
+
+.CartBtn {
+  background: linear-gradient(98.58deg, #FF00FF -3%, #09ade4 106.96%) !important;
+box-shadow: 0px 4px 4px rgba(26, 183, 234, 0.16) !important;
+border-radius: 8px !important;
+  border: none  !important; 
+  background-color: unset !important; 
+  color: #fff;
+  padding: 0.6rem 0.8rem!important;
+ 
+}
+.RCartBtn{
+ 
+
+  background: linear-gradient(98.58deg, #1aa5d3 -3%, #ee37ee 106.96%) !important;
+box-shadow: 0px 4px 4px rgba(26, 183, 234, 0.16) !important;
+border-radius: 8px !important;
+  border: none  !important; 
+  background-color: unset !important; 
+  color: #fff;
+  padding: 0.6rem 0.8rem!important;
+      
+  
+}

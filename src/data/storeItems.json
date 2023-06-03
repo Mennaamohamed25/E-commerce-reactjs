@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Congratulations",
+
+    "imgUrl": "/ProductImg/im1.png"
+  },
+  {
+    "id": 2,
+    "name": "Happy Anniversary",
+
+    "imgUrl": "/ProductImg/im2.png"
+  },
+  {
+    "id": 3,
+    "name": "Wedding",
+
+    "imgUrl": "/ProductImg/im3.png"
+  },
+  {
+    "id": 4,
+    "name": "Father's Day",
+
+    "imgUrl": "/ProductImg/im4.png"
+  },
+  {
+    "id": 5,
+    "name": "Happy Birthday",
+
+    "imgUrl": "/ProductImg/im5.png"
+  },
+  {
+    "id": 6,
+    "name": "Valentine's Day",
+
+    "imgUrl": "/ProductImg/im6.png"
+  },
+  {
+    "id": 7,
+    "name": "Mother's Day",
+
+    "imgUrl": "/ProductImg/im7.png"
+  },
+  {
+    "id": 8,
+    "name": "I love you",
+
+    "imgUrl": "/ProductImg/im8.png"
+  }
+]

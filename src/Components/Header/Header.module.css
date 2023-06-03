@@ -1,0 +1,102 @@
+@import url(../../index.css);
+.HeaderBg{
+    background-image: url(../../Images/home.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 111;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+  }
+  .pinkyText {
+    color: var(--spanText);
+    font-weight: 500;
+ 
+  }
+  .HeaderTitle{
+    width: 50%;
+  }
+  .mutedText {
+    color: var(--mutedText);
+    width: 50%;
+  }
+  .mainBtn {
+    background: linear-gradient(95.68deg, #ff00ff -2.83%, #1ab7ea 111.92%);
+    box-shadow: 0px 4px 4px rgba(26, 183, 234, 0.16);
+    border-radius: 8px;
+    padding: 10px 25px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 1.5rem;
+    text-decoration: none;
+  }
+  .mainBtn:hover{
+    color: #fff;
+  }
+
+  @media (max-width: 1132px) {
+    .HeaderTitle{
+      width: 60%;
+    }
+    .mutedText{
+      width: 60%;
+    }
+  }
+
+  @media (max-width: 932px) {
+    /* .HeaderTitle{
+      width: 60%;
+    } */
+    .mutedText{
+      width: 70%;
+    }
+  }
+  @media (max-width: 885px) {
+    .HeaderTitle{
+      width: 70%;
+    }
+    /* .mutedText{
+      width: 70%;
+    } */
+  }
+  @media (max-width: 885px) {
+    /* .HeaderTitle{
+      width: 70%;
+    } */
+    .mutedText{
+      width: 80%;
+    }
+  }
+  @media (max-width: 767px) {
+    .HeaderTitle{
+      width: 80%;
+    }
+    /* .mutedText{
+      width: 80%;
+    } */
+  }
+  @media (max-width: 712px) {
+    /* .HeaderTitle{
+      width: 80%;
+    } */
+    .mutedText{
+      width: 90%;
+    }
+  }
+  @media (max-width: 638px) {
+    .HeaderTitle{
+      width: 100%;
+    }
+    .mutedText{
+      width: 100%;
+    }
+  }
